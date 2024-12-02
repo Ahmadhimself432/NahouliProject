@@ -1,0 +1,260 @@
+/* admin_style.css */
+
+/* Sidebar styles */
+.loginForm {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.loginForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginForm input[type="text"], .loginForm input[type="password"] {
+  font-size: 16px;
+}
+
+.loginForm button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #ffa500;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+/* Button Styles */
+.btn-approve {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-approve:hover {
+  background-color: darkgreen;
+}
+
+.btn-disapprove {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-disapprove:hover {
+  background-color: darkred;
+}
+
+.btn-delete {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-delete:hover {
+  background-color: darkgray;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 270px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f4f4f4;
+}
+
+.admin-table td img {
+  width: 50px;
+  height: auto;
+}
+
+.admin-table td a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.admin-table td .btn-edit {
+  background-color: blue;
+  color: white;
+}
+
+.admin-table td .btn-edit:hover {
+  background-color: darkblue;
+}
+
+.admin-table td .btn-delete {
+  background-color: red;
+  color: white;
+}
+
+.admin-table td .btn-delete:hover {
+  background-color: darkred;
+}
+
+.admin-table td .btn-add {
+  background-color: green;
+  color: white;
+}
+
+.admin-table td .btn-add:hover {
+  background-color: darkgreen;
+}
+
+/* Button for adding pizza */
+.btn-add {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn-add:hover {
+  background-color: darkgreen;
+}
+
+/* General Styling for the Table */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.table-reservations {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table-reservations th,
+.table-reservations td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-reservations th {
+  background-color: #f2f2f2;
+}
+
+.table-reservations tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Button Styles */
+.btn-approve,
+.btn-disapprove,
+.btn-delete {
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-approve {
+  background-color: green;
+}
+
+.btn-approve:hover {
+  background-color: darkgreen;
+}
+
+.btn-disapprove {
+  background-color: red;
+}
+
+.btn-disapprove:hover {
+  background-color: darkred;
+}
+
+.btn-delete {
+  background-color: gray;
+}
+
+.btn-delete:hover {
+  background-color: darkgray;
+}

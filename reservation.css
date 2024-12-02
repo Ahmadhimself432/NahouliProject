@@ -1,0 +1,168 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Reservation {
+    font-size: large;
+    margin-bottom: 110px;
+    margin-top: 100px;
+}
+
+.Reservation table tr td input,
+select {
+    width: 315px;
+    height: 35px;
+}
+
+.Reservation table tr td {
+    overflow: hidden;
+    clear: both;
+}
+
+#findTableBtn {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.Reservation table {
+    width: 50%;
+}
+
+#findTableBtn:hover {
+    transform: scale(1.1);
+    margin-bottom: 15px;
+}
+
+.last {
+    text-align: center;
+}
+
+table tr td {
+    color: orange;
+}
+
+table tr td input,
+table tr td select {
+    background-color: white;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+}
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        flex-direction: column;
+    }
+
+    .footerNav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+footer {
+    background-color: orange;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0, 9;
+}
+
+.socialIcons a:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -300px;
+}
+
+@media(max-width:700px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: -400px;
+    }
+
+}
